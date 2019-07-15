@@ -22,7 +22,9 @@ class App extends React.Component {
                 <br/>
                 <div className="row">
                     <div className="col-xs-10 col-xs-offset-1">
-                        <Home name={"Max"} age={27} user={user} />
+                        <Home name={"Max"} age={27} user={user}>
+                            <p>This is a child paragraph</p>
+                        </Home>
                         
                     </div>
                 </div>
