@@ -1,7 +1,6 @@
 import React from "react";
 import {render} from "react-dom";
 import {Router, Route, browserHistory, IndexRoute} from "react-router";
-//import {Router, Route, browserHistory, IndexRoute} from "react-router-dom";
 
 import {Root} from "./components/Root";
 import {Home} from "./components/Home";
